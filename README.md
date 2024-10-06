@@ -13,8 +13,8 @@ This project is a simple dashboard built using Next.js with the App Router struc
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/BoomTHDev/dashboard-nextjs.git
-   cd dashboard-nextjs
+   git clone https://github.com/BoomTHDev/dashboard-nextjs-dark.git
+   cd dashboard-nextjs-dark
    ```
 2. **Install dependencies**
 
