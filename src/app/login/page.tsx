@@ -23,7 +23,7 @@ export default function LoginPage() {
                     className="bg-slate-700 text-white border-slate-600 focus:border-slate-400" 
                     id="email" 
                     type="email" 
-                    placeholder="กรอกอีเมลของคุณ" 
+                    placeholder="Enter your email" 
                   />
                 </div>
                 <div className="space-y-2">
@@ -32,7 +32,7 @@ export default function LoginPage() {
                     className="bg-slate-700 text-white border-slate-600 focus:border-slate-400" 
                     id="password" 
                     type="password" 
-                    placeholder="กรอกรหัสผ่านของคุณ" 
+                    placeholder="Enter your password" 
                   />
                 </div>
                 <div className='flex items-center space-x-2'>
