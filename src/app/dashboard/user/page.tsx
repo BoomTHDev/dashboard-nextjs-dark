@@ -15,7 +15,7 @@ import Image from 'next/image'
 export default function UserPage() {
     return (
         <div className='px-3 py-4 rounded-md bg-slate-800 overflow-auto border-2 border-slate-400'>
-            <h3 className='text-lg font-bold py-2 sticky top-0 bg-slate-800 z-10'>Top Products</h3>
+            <h3 className='text-lg font-bold py-2 sticky top-0 bg-slate-800 z-10'>Users</h3>
             <Table>
                 <TableCaption>แก้ไขข้อมูลได้ที่ <strong>src/TableList.tsx</strong></TableCaption>
                 <TableHeader>
