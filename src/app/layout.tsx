@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${kanit.className} antialiased`}
+        className={`${kanit.className} antialiased bg-slate-800 text-foreground`}
       >
         <ThemeProvider
           attribute="class"
