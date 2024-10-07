@@ -37,7 +37,7 @@ export const TABLE_TWO_LIST: TableTwoList[] = [
         id: 2,
         image: '/no-avatar.png',
         name: 'Samsung S30 Super Ultra',
-        status: 'Active',
+        status: 'Pending',
         amount: '$30000.00'
     }
 ]
