@@ -46,9 +46,8 @@ export const data = {
 
 export default function DonutChart() {
     return (
-        <div className='bg-slate-800 p-4 rounded h-full flex flex-col'>
-            <h1 className='text-white text-base sm:text-lg font-semibold mb-2'>Distribution</h1>
-            <div className='flex-grow'>
+        <div className='bg-slate-800 p-4 rounded h-full w-full'>
+            <div className='h-full w-full'>
                 <Doughnut options={options} data={data} />
             </div>
         </div>

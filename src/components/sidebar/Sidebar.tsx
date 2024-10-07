@@ -19,7 +19,7 @@ export default function Sidebar() {
     return (
         
         // <aside className={`bg-slate-800 fixed inset-y-0 left-0 w-64 overflow-y-auto transition-all duration-300 ease-in-out transform ${sidebarOpen ? 'z-40 translate-x-0' : '-translate-x-full'} -translate-x-full lg:translate-x-0`}>
-        <aside className={`hidden md:flex flex-col justify-between bg-slate-800 fixed inset-y-0 left-0 z-50 w-64 overflow-y-auto transition-transform duration-300 ease-in-out transform ${
+        <aside className={`-translate-x-full lg:flex flex-col justify-between bg-slate-800 fixed inset-y-0 left-0 z-50 w-64 overflow-y-auto transition-transform duration-300 ease-in-out transform ${
             sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}>
             <div>
