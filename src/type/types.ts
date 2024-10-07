@@ -10,14 +10,6 @@ export interface MenuList {
     subMenuItem?: MenuList[]
 }
 
-export interface TableOneList {
-    id: number
-    Icon: LucideIcon
-    name: string
-    status: string
-    amount: string
-}
-
 export interface TableTwoList {
     id: number
     image: string
@@ -26,11 +18,15 @@ export interface TableTwoList {
     amount: string
 }
 
-export interface TableThreeList {
-    package: string
-    invoice_date: string
+export interface TableUsersList {
+    id: number
+    image?: string
+    name: string
+    role: string
+    email: string
     status: string
 }
+
 
 export interface CardList {
     Icon: LucideIcon

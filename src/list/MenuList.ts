@@ -1,5 +1,5 @@
 import { Home } from 'lucide-react'
-import { MenuList, TableThreeList } from '../type/types'
+import { MenuList } from '../type/types'
 
 export const MENU_LIST: MenuList[] = [
     {
@@ -9,8 +9,8 @@ export const MENU_LIST: MenuList[] = [
         subMenu: true,
         subMenuItem: [
             {
-                title: 'Sub 1',
-                path: '/dashboard',
+                title: 'Users',
+                path: '/dashboard/user',
                 Icon: Home,
                 badge: true,
                 badgeText: 'New',
